@@ -1,2 +1,2 @@
 # contact-form-mailgun
-![Travis Cl](https://travis-ci.org/hsandstromOM/mailchimp-newsletter-signup.svg?branch=master)
+![Travis Cl](https://travis-ci.org/hsandstromOM/contact-form-mailgun.svg?branch=master)
