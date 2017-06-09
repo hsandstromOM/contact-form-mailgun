@@ -1,0 +1,27 @@
+{
+  "name": "contact-form",
+  "version": "1.0.0",
+  "description": "![Travis Cl](https://travis-ci.org/hsandstromOM/mailchimp-newsletter-signup.svg?branch=master)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsandstromOM/contact-form-mailgun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsandstromOM/contact-form-mailgun/issues"
+  },
+  "homepage": "https://github.com/hsandstromOM/contact-form-mailgun#readme",
+  "dependencies": {
+      "express": "latest",
+      "morgan": "latest",
+      "body-parser": "latest",
+      "nodemailer": "latest",
+      "nodemailer-mailgun-transport": "latest",
+      "nconf": "latest"
+  }
+}
