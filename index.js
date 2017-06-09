@@ -66,6 +66,7 @@ app.post("/contact", function (req, res) {
     to: 'hosea@obviouslee.com', // list of receivers
     subject: 'Message from Website Contact page', // Subject line
     text: comment,
+    text: company,
     err: isError
 
   };
@@ -73,10 +74,10 @@ app.post("/contact", function (req, res) {
   transporter.sendMail(mailOptions, function (error, info) {
     if (error) {
       console.log('\nERROR: ' + error+'\n');
-      //   res.json({ yo: 'error' });
+        res.redirect('/404.html');
     } else {
          console.log('\nRESPONSE SENT: ' + info.response+'\n');
-      //   res.json({ yo: info.response });
+        res.redirect('/thankyou.html');
     }
   });
 });
