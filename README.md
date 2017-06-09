@@ -5,7 +5,7 @@
 
 # Enabling Contact Forms with Node.js, NodeMailer, and MailGun
 
-<span class="post-date">08 Oct 2016</span>http://denisecase.github.io/2016/10/08/enabling-contact-form/
+<span class="post-date">08 Oct 2016</span> [Denise Case](http://denisecase.github.io/2016/10/08/enabling-contact-form/).
 
 Node.js makes it easy to add a working contact form to your website.  
 
