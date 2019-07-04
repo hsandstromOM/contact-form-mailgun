@@ -4,7 +4,9 @@
   "description": "![Travis Cl](https://travis-ci.org/hsandstromOM/mailchimp-newsletter-signup.svg?branch=master)",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
     "nconf": "latest",
     "nodemailer": "latest",
     "nodemailer-mailgun-transport": "latest",
-    "nodemon": "^1.11.0"
-  }
+    "nodemon": "^1.11.0",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
